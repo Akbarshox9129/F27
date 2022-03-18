@@ -207,5 +207,6 @@ class Window(QWidget):
         self.scan()
 app=QApplication(sys.argv)
 oyna=Window()
+oyna.setFixedSize(700,700)
 oyna.show()
 sys.exit(app.exec_())
